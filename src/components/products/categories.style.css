@@ -1,0 +1,26 @@
+.categories {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.categories div {
+    font-weight: 900;
+    margin: 0 10px 10px 10px;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 700ms ease;
+}
+
+.categories div:hover {
+    background-color: #555;
+    border-color: #555;
+    transform: scale(1.1);
+}
